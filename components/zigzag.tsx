@@ -128,6 +128,74 @@ export default function Zigzag() {
               </div>
             </div>
 
+            <div className="max-w-3xl mx-auto text-center">
+              <h1 className="h2 mb-4">Feature Comparision</h1>
+              <p className="text-xl text-gray-400">Comparison of key features between TensorFlow and PyTorch: highlighting differences in computational graph, debugging, popularity, community support, deployment, model serving, ease of use, visualization, and flexibility</p>
+            </div>
+
+            <table data-aos="fade-up">
+              <thead>
+                <tr>
+                  <td className='h4'>Feature</td>
+                  <td className='h4'>TensorFlow</td>
+                  <td className='h4'>PyTorch</td>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td className='font-architects-daughter text-xl text-purple-600 mb-2'>Computational Graph</td>
+                  <td className='text-gray-400'>Uses static computational graph</td>
+                  <td className='text-gray-400'>Uses dynamic computational graph</td>
+                </tr>
+                <tr>
+                  <td className='font-architects-daughter text-xl text-purple-600 mb-2'>Debugging</td>
+                  <td className='text-gray-400'>More challenging due to static graph</td>
+                  <td className='text-gray-400'>Easier debugging due to dynamic graph</td>
+                </tr>
+                <tr>
+                  <td className='font-architects-daughter text-xl text-purple-600 mb-2'>Define and Run</td>
+                  <td className='text-gray-400'>Define then run model</td>
+                  <td className='text-gray-400'>Define-by-run model</td>
+                </tr>
+                <tr>
+                  <td className='font-architects-daughter text-xl text-purple-600 mb-2'>Popularity</td>
+                  <td className='text-gray-400'>Highly popular, widely used in production</td>
+                  <td className='text-gray-400'>Growing in popularity, widely used in research</td>
+                </tr>
+                <tr>
+                  <td className='font-architects-daughter text-xl text-purple-600 mb-2'>Community Support</td>
+                  <td className='text-gray-400'>Large community support and resources</td>
+                  <td className='text-gray-400'>Rapidly growing community support</td>
+                </tr>
+                <tr>
+                  <td className='font-architects-daughter text-xl text-purple-600 mb-2'>Deployment</td>
+                  <td className='text-gray-400'>Supports TensorFlow Serving for deployment</td>
+                  <td className='text-gray-400'>Supports TorchScript for deployment</td>
+                </tr>
+                <tr>
+                  <td className='font-architects-daughter text-xl text-purple-600 mb-2'>Model Serving</td>
+                  <td className='text-gray-400'>TensorFlow Serving for model serving</td>
+                  <td className='text-gray-400'>TorchServe for model serving</td>
+                </tr>
+                <tr>
+                  <td className='font-architects-daughter text-xl text-purple-600 mb-2'>Ease of Use</td>
+                  <td className='text-gray-400'>Steeper learning curve, especially for beginners</td>
+                  <td className='text-gray-400'>Easier to learn and get started with</td>
+                </tr>
+                <tr>
+                  <td className='font-architects-daughter text-xl text-purple-600 mb-2'>Visualization</td>
+                  <td className='text-gray-400'>TensorBoard for visualization</td>
+                  <td className='text-gray-400'>TensorBoardX, Visdom, or matplotlib for visualization</td>
+                </tr>
+                <tr>
+                  <td className='font-architects-daughter text-xl text-purple-600 mb-2'>Flexibility</td>
+                  <td className='text-gray-400'>Provides both high-level and low-level APIs</td>
+                  <td className='text-gray-400'>Generally more flexible and Pythonic</td>
+                </tr>
+
+              </tbody>
+            </table>
+
           </div>
 
         </div>
