@@ -29,7 +29,9 @@ export default function Testimonials() {
                   </svg>
                 </div>
               </div>
-              <blockquote className="text-lg text-gray-400 grow">— Open PRO lets me quickly get the insights I care about so that I can focus on my productive work. I've had Open PRO for about 24 hours now and I honestly don't know how I functioned without it before.</blockquote>
+              <blockquote className="text-lg text-gray-400 grow">
+              Nain Patel, an experienced AI/ML Engineer and adept Android Developer, embarks on a journey into Data Science through Trent University's Master of Big Data Analytics program. With extensive hands-on experience across AI, ML, and Android development, Nain excels in crafting innovative solutions for various industries. Seeking collaborative opportunities, Nain aims to leverage expertise as a Data Scientist, driven by a passion for data analytics and technological advancement.
+              </blockquote>
               <div className="text-gray-700 font-medium mt-6 pt-5 border-t border-gray-700">
               <div className="md:flex md:items-center md:justify-between">
                   <cite className="text-gray-200 not-italic">Nain Patel</cite>
@@ -50,7 +52,9 @@ export default function Testimonials() {
                   </svg>
                 </div>
               </div>
-              <blockquote className="text-lg text-gray-400 grow">— Open PRO lets me quickly get the insights I care about so that I can focus on my productive work. I've had Open PRO for about 24 hours now and I honestly don't know how I functioned without it before.</blockquote>
+              <blockquote className="text-lg text-gray-400 grow">
+                I provided 24/7 support for banking institutions in Canada and LATAM, ensuring smooth IT infrastructure operations at Kyndryl Solutions. My role involved monitoring, troubleshooting, and ensuring client satisfaction. During my internship at Bridgei2i Analytics (now part of Accenture), I honed my skills in React JS and Python Flask, contributing to data-driven digital transformations.
+              </blockquote>
               <div className="text-gray-700 font-medium mt-6 pt-5 border-t border-gray-700">
               <div className="md:flex md:items-center md:justify-between">
                   <cite className="text-gray-200 not-italic">Nidhi Patel</cite>
